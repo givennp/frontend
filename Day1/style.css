@@ -132,8 +132,16 @@
 .goback{
     float: right;
     margin-top: 32px;
-    margin-right: 56px;
+    margin-right: 46px;
     width: 88px;
     height: 125px;
     font-weight: 800;
+}
+
+.rectangle{
+    float: right;
+    display: inline-block;
+    width: 1px;
+    height: 29.97px;
+    background: #E7F0F2;
 }
