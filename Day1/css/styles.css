@@ -1,0 +1,63 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: #00c295;
+}
+
+#welcomeMessage {
+    color: blue;
+}
+
+.text-black{
+    color: black;
+    font-weight: lighter;
+    font-size: 16px;
+}
+
+.text-italic{
+    font-style: italic;
+}
+
+.card{
+    border: 2px solid lightgray;
+    padding: 16px 32px;
+    color: #00c295;
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.separator{
+    margin-top: 16px;
+}
+
+.black-card {
+    background-color: black;
+    width: 215px;
+    height: 114px;
+    padding-top: 16px;
+    padding-left: 18px;
+    
+}
+
+
+
+.black-card-title{
+    font-size: 9px;
+    font-weight: 900;
+    color: white;
+    text-transform: uppercase;
+}
+
+.black-card-subtitle{
+    font-size: 7px;
+    font-weight: 700;
+    color: white;
+    padding-top: 4px;
+}
