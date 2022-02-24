@@ -18,21 +18,18 @@
 .img {
     width: 535px;
     height: 738px;
-    float: left;
     display: inline-block;
 
 }
 
-.cartLogo {
-    width: 21px;
-    float: right;
-    margin-top: 35px;
-    margin-right: 92px;
-
+.container{
+    width: 500px;
+    display: inline-block;
+    height: 100vh;
 }
 
+
 .title {
-    position: absolute;
     width: 415px;
     height: 91px;
     display: inline-block;
@@ -48,8 +45,7 @@
 
 .price {
     display: inline-block;
-    position: absolute;
-    margin-top: 229px;
+    margin-top: 31px;
     margin-left: 71px;
     width: 103px;
     height: 31px;
@@ -60,9 +56,8 @@
 
 .productDesc {
     display: inline-block;
-    position: absolute;
     margin-left: 71px;
-    margin-top: 308px;
+    margin-top: 48px;
     width: 346px;
     height: 131px;
     font-size: 14px;
@@ -71,9 +66,8 @@
 
 .size {
     display: inline-block;
-    position: absolute;
     margin-left: 77px;
-    margin-top: 458px;
+    margin-top: 19px;
     width: 135px;
     height: 37px;
     font-size: 12px;
@@ -86,11 +80,6 @@
     font-weight: 800;
 }
 
-.button {
-    display: inline-block;
-    box-sizing: border-box;
-    margin-top: 561px;
-}
 
 .btn {
     margin-left: 71px;
@@ -110,16 +99,41 @@
     color: black;
 }
 
+
+.rightSide{
+    float: right;
+    width: fit-content;
+    height: 100vh;
+}
+
+.cartLogo {
+    width: 21px;
+    float: right;
+    margin-top: 35px;
+    margin-right: 92px;
+
+}
+
+
 .gender {
     float: right;
     color: rgba(0, 0, 0, 0.55);
     font-size: 12px;
+    margin-top: 250px;
     margin-right: 87px;
-    margin-top: 440px;
     width: 88px;
     height: 125px;
     font-size: 12px;
     text-align: right;
     display: flex;
     align-items: flex-end;
+}
+
+.goback{
+    float: right;
+    margin-top: 32px;
+    margin-right: 56px;
+    width: 88px;
+    height: 125px;
+    font-weight: 800;
 }
